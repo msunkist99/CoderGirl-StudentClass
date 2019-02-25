@@ -13,7 +13,7 @@ namespace StudentClass
         public double credits { get; set; }
         public List<IndividualClass> classes { get; set; }
 
-        public Student((string firstName, string lastName, string id)
+        public Student(string firstName, string lastName, string id)
         {
             this.firstName = firstName;
             this.lastName = lastName;
@@ -47,7 +47,6 @@ namespace StudentClass
             {
                 standing = "Senior";
             }
-
         }
     }
 
@@ -55,6 +54,6 @@ namespace StudentClass
     {
         public string name { get; set; }
         public string grade { get; set; }
-        public double credit { get;set }
+        public double credit { get; set; }
     }
 }
